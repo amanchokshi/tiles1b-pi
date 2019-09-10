@@ -27,7 +27,7 @@ else
         echo "[06:03AM]:" $NUMBER_F "files instead of" $(($NUMBER_TILES*48))"." >> /home/jline/t1b.txt
         echo "MISSING_FILES" >> /home/jline/missing_status.txt
     else
-        echo "[06:03AM]: All Clear! All "$NUMBER_F" files are ready to be transferred to Ozstar" >> /home/jline/ref.txt 
+        echo "[06:03AM]: All Clear! All "$NUMBER_F" files are ready to be transferred to Ozstar" >> /home/jline/t1b.txt 
         echo "ALL_FILES" >> /home/jline/missing_status.txt 
     fi
 fi    
