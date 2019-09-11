@@ -13,5 +13,5 @@ do
     rm -r /home/jline/data/$i*
 done
 
-rsync -avzhe ssh /home/jline/data/* achokshi@ozstar.swin.edu.au:/fred/oz048/achokshi/mwa_sats/data/tiles
+rsync -avzhe ssh /home/jline/data/* achokshi@ozstar.swin.edu.au:/fred/oz048/achokshi/mwa_sats/data/tiles_data
 #rsync -avzhe ssh ./data/* achokshi@ozstar.swin.edu.au:/fred/oz048/achokshi/mwa_sats/data/tiles1b
